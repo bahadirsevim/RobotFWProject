@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+.env
+.env.*
+pip-wheel-metadata/
+htmlcov/
+.pytest_cache/
+# VSCode
+.vscode/
+# macOS
+.DS_Store
+# Robot Framework
+output.xml
+report.html
+log.html
+results/
