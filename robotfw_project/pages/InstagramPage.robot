@@ -6,7 +6,7 @@ Variables    ../locators/Locators.py
 
 *** Keywords ***
 Go to Instagram Login Page
-    Open Browser    ${Datas.url}    chrome    options=add_argument(--headless)
+    Open Browser    ${Datas.url}    chrome    options=add_argument("--headless")
     Maximize Browser Window
     Set Selenium Implicit Wait    5 seconds
     # Instagram giriş sayfasına git. Tarayıcıyı maksimize et ve toleranslı bekleme süresini 5 saniye olarak ayarla.
