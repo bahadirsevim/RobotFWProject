@@ -22,3 +22,5 @@ Login to Instagram With Wrong Credentials
     Input Text    ${InstagramLocators.passwordField}    ${Datas.wrongPassword}
     Press Keys   ${InstagramLocators.passwordField}    ENTER
     # Instagram'a yanlış bilgilerle giriş yap. Email ve şifre alanlarına yanlış bilgileri gir ve ENTER tuşuna bas.
+
+    # her github'a push yaptığımda kod jenkins'de çalışıyor mu kontrol etmek için bu yorum satırını yazıyorum.
